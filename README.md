@@ -41,6 +41,7 @@ What metric or metrics to test?
 What are the hypothesis?
 
 Null: There is no statistically significant relationship between car manufacturer and safety rating.
+
 Alternative: MechaCar has a statistically different safety rating than other manufacturers.
 
 To test these hypothesis, we will run t-tests by car manufacturer and vehicle type and look at p-values calculated. P-values over 0.05 would support the alternative hypothesis. 
