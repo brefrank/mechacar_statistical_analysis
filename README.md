@@ -30,7 +30,17 @@ Looking at the 3 lots individually, however, we see that lot 3's p-value is 0.04
 
 ## Study Design: MechaCar vs Competition
 
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Our next step is to run a statistical study to compare safety ratings for MechaCar vehicles against other manufacturers. 
+
+What metric or metrics to test?
+
+- Car manufacturer
+- Vehicle type (SUV, sedan, etc.)
+- Safety rating
+
+What are the hypothesis?
+
+Null: There is no statistically significant relationship between car manufacturer and safety rating.
+Alternative: MechaCar has a statistically different safety rating than other manufacturers.
+
+To test these hypothesis, we will run t-tests by car manufacturer and vehicle type and look at p-values calculated. P-values over 0.05 would support the alternative hypothesis. 
